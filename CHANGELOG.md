@@ -48,8 +48,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Project initilization.
 
-[Unreleased]: https://github.com/giantswarm/cluster-api-cleaner-openstack/compare/v0.7.0...HEAD
-[0.7.0]: https://github.com/giantswarm/cluster-api-cleaner-openstack/compare/v0.6.0...v0.7.0
+[Unreleased]: https://github.com/thg-ice/cluster-api-cleaner-openstack/compare/v0.7.0...HEAD
+[0.7.0]: https://github.com/thg-ice/cluster-api-cleaner-openstack/compare/8fd7311...v0.7.0
 [0.6.0]: https://github.com/giantswarm/cluster-api-cleaner-openstack/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/giantswarm/cluster-api-cleaner-openstack/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/giantswarm/cluster-api-cleaner-openstack/compare/v0.3.0...v0.4.0
