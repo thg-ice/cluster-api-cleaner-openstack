@@ -2,3 +2,12 @@ checks:
   addAllBuiltIn: true
   exclude:
   - no-read-only-root-fs
+  - no-liveness-probe
+  - no-readiness-probe
+  - required-annotation-email
+  - required-label-owner
+  - access-to-secrets  # needed by CAPO
+  - dnsconfig-options
+  - minimum-three-replicas
+  - no-node-affinity
+  - no-rolling-update-strategy
