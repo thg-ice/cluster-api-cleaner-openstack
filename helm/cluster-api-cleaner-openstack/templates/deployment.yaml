@@ -24,6 +24,7 @@ spec:
       securityContext:
         runAsUser: {{ .Values.pod.user.id }}
         runAsGroup: {{ .Values.pod.group.id }}
+        readOnlyRootFilesystem: true
       containers:
       - name: {{ .Chart.Name }}
         image: "{{ .Values.registry.domain }}/{{ .Values.image.name }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
