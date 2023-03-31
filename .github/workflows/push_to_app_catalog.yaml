@@ -1,0 +1,16 @@
+name: 'Push to ICE Control Plane Catalog'
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+
+jobs:
+  push_to_app_catalog:
+    uses: giantswarm/app-build-suite/.github/workflows/push-to-app-catalog.yaml@v1.1.2
+    with:
+      app_catalog: ice-control-plane-catalog
+      chart: cluster-api-cleaner-openstack
+      organization: thg-ice
+    secrets:
+      envPAT: ${{ secrets.WORKFLOW_WRITE }}

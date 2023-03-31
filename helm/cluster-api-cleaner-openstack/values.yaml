@@ -1,11 +1,9 @@
-project:
-  branch: "[[ .Branch ]]"
-  commit: "[[ .SHA ]]"
 image:
-  name: "giantswarm/cluster-api-cleaner-openstack"
-  tag: "[[ .Version ]]"
+  name: "thg-ice/cluster-api-cleaner-openstack"
+  tag: ""  # leave empty to default to chart's appVersion
+
 registry:
-  domain: docker.io
+  domain: ghcr.io
 
 logLevel: 0
 
